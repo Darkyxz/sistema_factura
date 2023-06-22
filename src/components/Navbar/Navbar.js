@@ -75,7 +75,7 @@ function Navbar() {
               damping: 20,
             }}
           >
-            Invoice Maker
+            Sistema de Facturación
             <InvoiceNavbarLoading
               loop
               className="nav-loading-right "
