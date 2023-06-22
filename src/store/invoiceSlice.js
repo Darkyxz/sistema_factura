@@ -264,7 +264,8 @@ export const getIsConfirm = (state) => state.invoices.isConfirm;
 
 export const getTotalBalance = (state) =>
   state.invoices.data.reduce((prev, next) => {
-    return prev + (next.totalAmount || 0);
+    const totalAmount = parseFloat(next.totalAmount) || 0;
+    return prev + totalAmount;
   }, 0);
 
 export default invoiceSlice.reducer;
