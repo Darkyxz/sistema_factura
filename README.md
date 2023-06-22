@@ -3,6 +3,7 @@
 Este proyecto fue arrancado con [Create React App](https://github.com/facebook/create-react-app).
 
 ## Scripts disponibles
+Cuando tengas el proyecto elimina el archivo "yarn.lock" y despues sigue estos pasos:
 
 Para instalar los paquetes necesarios proyecto, puedes ejecutar
 
