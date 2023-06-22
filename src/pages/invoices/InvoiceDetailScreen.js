@@ -621,7 +621,7 @@ function InvoiceDetailScreen(props) {
             <>
               {params.id === "new"
                 ? "Nueva factura"
-                : `Invoice Detail ${invoiceForm?.statusName}`}
+                : `Detalles de la factura ${invoiceForm?.statusName}`}
             </>
           }
         />
